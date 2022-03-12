@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="manifest" href="manifest.json">
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <form id="form" onsubmit="submitform(event)">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="no   me" value="" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="text" id="telefone" name="telefone" value="" required><br><br>
+
+        <label for="morada">Morada:</label><br>
+        <input type="text" id="morada" name="morada" value="" required><br><br>
+
+        <label for="nif">NIF:</label><br>
+        <input type="text" id="nif" name="nif" value="" required><br><br>
+
+        <label for="observaçoes">Observaçoes:</label><br>
+        <input type="text" id="observaçoes" name="observaçoes" value=""><br><br>
+        
+        <input type="submit" value="Submit" onclick="resultado()">
+      </form>
+
+</body>
+</html>
