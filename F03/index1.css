@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+}
+
+div{
+    margin-top: 50px;
+}
+
+/*---------------------------------------- Exercício 1 --------------------*/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: blue;
+}
+
+/*---------------------------------------- Exercício 2 --------------------*/
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: yellow;
+}
+
+@media (min-width: 768px){
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: yellow;
+    }
+}
+
+/*---------------------------------------- Exercício 3 --------------------*/
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+}
+
+@media (min-width: 576px){
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: red;
+    }
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: red;
+}
+
+@media (min-width: 576px){
+    .grid4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        background-color: red;
+    }
+}
+
+/*---------------------------------------- Exercício 4 --------------------*/
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: yellow;
+}
+
+@media (min-width: 576px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.grid6{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+}
+
+@media (min-width: 576px){
+    .grid6{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px){
+    .grid6{
+        display: grid;
+        grid-template-columns: 66% 33%;
+        background-color: green;
+    }
+}
