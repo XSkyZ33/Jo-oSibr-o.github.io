@@ -1,0 +1,28 @@
+h5 {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.p_teams {
+    text-align: left;
+    padding-left: 150px;
+}
+
+.sss{
+    position: relative;
+    text-align: end;
+    margin-right: 1;
+    font-size: xx-small;
+    margin-bottom: 1px;
+}
+
+body {
+    background-color: #d3d3d3;
+    background-repeat: no-repeat;
+    
+}
+
+.limpa {
+    background-color: white;
+}
